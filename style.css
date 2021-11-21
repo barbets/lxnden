@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Shippori+Antique&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(./images/background-new.png);
+	background-repeat: no-repeat;
+}
+
+.box {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 45px;
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Mochiy', sans-serif;
+}
+
+.box-img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.discord {
+	font-size: 25px;
+	font-family: 'Mochiy', sans-serif;
+	font-weight: 700;
+	margin: auto;
+	margin-top: 10%;
+}
+
+.name {
+  margin-top: 2;
+  margin-bottom: 1rem;
+  font-size: 35px;
+  font-family: 'Mochiy', sans-serif;
+}
+
+.tag {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 23px;
+  font-family: 'Mochiy', sans-serif;
+  font-weight: 700;
+  color: #d61313;
+}
+
+.about {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-family: 'Mochiy', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.box li {
+	margin: 6px;
+	list-style: none;
+	display: inline-block;
+}
+
+.box li a {
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+	color: #b9b9b9
+}
+
+.button {
+    border-radius: 12px;
+    background-color: rgba(0, 252, 42, 0.658);
+    padding: 5px 30px;
+    font-weight: 600;
+    font-size: 19pt;
+    color: white;
+    text-decoration: none;
+	position: fixed;
+	bottom: 245px;
+	left: 620px;
+}
+
+.boxx {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 68px;
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
+	color: white;
+	font-family: 'Mochiy', sans-serif;
+}
+
+.boxx li {
+	margin: 6px;
+	list-style: none;
+	display: inline-block;
+}
+
+.boxx li a {
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	transition: all ease-in-out 250ms;
+}
+
+.boxx li a:hover {
+	color: #b9b9b9
+}
+
+footer {
+	text-align: center;
+	margin: auto;
+	margin-top: 3%;
+	font-size: 18px;
+	color: white;
+}
+
+.gif {
+	position: fixed;
+	right: 55px;
+	top: 95px;
+}
+
+@media (max-width: 700px) {
+	.box {
+		width: 240px;
+		padding: 5px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Mochiy', sans-serif;
+	}
+	.boxx {
+		width: 240px;
+		padding: 55px;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+		color: white;
+		font-family: 'Mochiy', sans-serif;
+	}
+	.button {
+		border-radius: 12px;
+		background-color: rgba(0, 252, 42, 0.658);
+		padding: 5px 30px;
+		font-weight: 600;
+		font-size: 19pt;
+		color: white;
+		text-decoration: none;
+		position: fixed;
+		bottom: 291px;
+		left: 123px;
+	}
+	.gif {
+	position: fixed;
+	right: 15px;
+	top: 425px;
+	}
+}
